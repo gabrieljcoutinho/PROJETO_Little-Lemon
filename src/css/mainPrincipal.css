@@ -41,3 +41,21 @@
     height: 550px;
     transition: 2s;
 }
+
+
+
+.btnMain {
+    background: none;
+    border: none;
+    background-color: yellow;
+    color: #000;
+    border-radius: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+}
+
+.btnMain:hover {
+    cursor: pointer;
+}
