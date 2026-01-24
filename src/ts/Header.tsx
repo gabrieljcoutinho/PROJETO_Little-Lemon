@@ -1,11 +1,13 @@
 import React from 'react'
 import logoHeader from "../imgs/imgHeader.png"
 
+import "../css/Header.css"
+
 type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <div>
+    <div className='Header'>
             <img src={logoHeader} alt="" />
 
                 <ul className='listaHeader'>
