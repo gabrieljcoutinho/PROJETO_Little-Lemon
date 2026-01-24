@@ -15,7 +15,9 @@ const MainConteudoPrincipal = (props: Props) => {
 
         <p className="pMainConteudoSecundario">Chicago</p>
 
-          <p className="pMainConteudoTerciario">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+          <p className="pMainConteudoTerciario">We are a family owned Mediterranean <br/>
+             restaurant, focused on traditional recipes <br/>
+             served with a modern twist.</p>
 
           <button className='btnMain'>Reserve a Table</button>
        </div>
