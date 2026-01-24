@@ -21,6 +21,10 @@
     padding-bottom: 1.5rem;
 }
 
+.pMainConteudoTerciario {
+    color: #fff;
+}
+
 .imgMainPrincipal {
     border-radius: 30px;
     width: 500px;
