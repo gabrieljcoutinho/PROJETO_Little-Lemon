@@ -1,10 +1,17 @@
 .Header {
     display: flex;
     padding-left: 20rem;
+    /* Isso alinha a logo e a lista verticalmente no centro */
+    align-items: center;
 }
 
 .listaHeader {
     display: flex;
     gap: 50px;
     padding-left: 20rem;
+    list-style: none;
+    padding-top: 5rem;
 }
+
+/* Se você quiser que os links fiquem na base (embaixo) e não no centro: */
+/* align-items: flex-end; */
