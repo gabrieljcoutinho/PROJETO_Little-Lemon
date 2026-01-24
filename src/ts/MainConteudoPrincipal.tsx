@@ -1,10 +1,12 @@
 import React from 'react'
 
+import "../css/mainPrincipal.css"
+
 type Props = {}
 
 const MainConteudoPrincipal = (props: Props) => {
   return (
-    <div>MainConteudoPrincipal</div>
+    <div className='mainPrincipal'>MainConteudoPrincipal</div>
   )
 }
 
