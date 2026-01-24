@@ -13,6 +13,8 @@ const SectionPratos = (props: Props) => {
         <a className="sectionPratosButton">Buy Online</a>
           </div>
 
+            <div className="subTitulo">This Week is specials!</div>
+
     </div>
   )
 }
