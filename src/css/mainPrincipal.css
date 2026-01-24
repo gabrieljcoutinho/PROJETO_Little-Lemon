@@ -2,6 +2,9 @@
     background-color: #495E57;
     margin-top: 5rem;
     height: 353.38px;
+    display: flex;
+    padding-left: 25rem;
+    gap: 200px;
 }
 
 .pMainConteudoPrinciapal {
@@ -14,4 +17,11 @@
     color: #fff;
     font-family: Markazi Text;
     font-size: 25px;
+}
+
+.imgMainPrincipal {
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    margin-top: -50px;
 }
