@@ -1,8 +1,10 @@
 .Header {
     display: flex;
+    padding-left: 20rem;
 }
 
 .listaHeader {
     display: flex;
     gap: 50px;
+    padding-left: 20rem;
 }
