@@ -1,10 +1,19 @@
 import React from 'react'
+import "../css/sectionPratos.css"
 
 type Props = {}
 
 const SectionPratos = (props: Props) => {
   return (
-    <div>SectionPratos</div>
+    <div>
+
+
+          <div className="divButton">
+
+        <a className="sectionPratosButton">Buy Online</a>
+          </div>
+
+    </div>
   )
 }
 
