@@ -14,3 +14,10 @@
     padding-left: 95rem;
     transform: translate(0px, 140px);
 }
+
+.subTitulo {
+    color: #252525;
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 15rem;
+}
