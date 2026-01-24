@@ -8,15 +8,15 @@ type Props = {}
 const Header = (props: Props) => {
   return (
     <div className='Header'>
-            <img src={logoHeader} alt="" />
+            <img src={logoHeader} alt=""  className='imgHeader'/>
 
                 <ul className='listaHeader'>
-                    <li ><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Resevations</a></li>
-                    <li><a href="#">Order Online</a></li>
-                    <li><a href="#">Login</a></li>
+                    <li ><a href="#" className='linksDaLista'>Home</a></li>
+                    <li><a href="#" className='linksDaLista'>About</a></li>
+                    <li><a href="#" className='linksDaLista'>Menu</a></li>
+                    <li><a href="#" className='linksDaLista'>Resevations</a></li>
+                    <li><a href="#" className='linksDaLista'>Order Online</a></li>
+                    <li><a href="#" className='linksDaLista'>Login</a></li>
                 </ul>
 
     </div>
