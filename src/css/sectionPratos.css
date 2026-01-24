@@ -1,0 +1,16 @@
+.sectionPratosButton {
+    background: none;
+    border: none;
+    background-color: #F4CE14;
+    color: #333333;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.divButton {
+    padding-left: 95rem;
+    transform: translate(0px, 140px);
+}
