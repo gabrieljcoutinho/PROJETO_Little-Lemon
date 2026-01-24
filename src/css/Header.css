@@ -1,8 +1,12 @@
 .Header {
     display: flex;
-    padding-left: 20rem;
+    padding-left: 25rem;
     /* Alinha tudo pelo topo por padrão */
     align-items: flex-start;
+}
+
+.imgHeader {
+    width: 200px;
 }
 
 .listaHeader {
@@ -11,5 +15,15 @@
     padding-left: 20rem;
     list-style: none;
     margin-top: 2rem;
+}
 
+.linksDaLista {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.linksDaLista:hover {
+    text-decoration: underline;
 }
