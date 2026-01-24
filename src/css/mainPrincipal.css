@@ -32,4 +32,11 @@
     width: 500px;
     height: 500px;
     margin-top: -50px;
+    transition: 2s;
+}
+
+.imgMainPrincipal:hover {
+    width: 600px;
+    height: 600px;
+    transition: 2s;
 }
