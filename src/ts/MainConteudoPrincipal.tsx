@@ -1,5 +1,7 @@
 import React from 'react'
 
+import imgMain from "../../src/imgs/imgPrincipal.png"
+
 import "../css/mainPrincipal.css"
 
 type Props = {}
@@ -8,13 +10,17 @@ const MainConteudoPrincipal = (props: Props) => {
   return (
     <div className='mainPrincipal'>
 
-        <p className="pMainConteudoPrinciapal">Little Lemon</p>
+       <div className="conteudoParagrafo">
+         <p className="pMainConteudoPrinciapal">Little Lemon</p>
 
         <p className="pMainConteudoSecundario">Chicago</p>
 
           <p className="pMainConteudoTerciario">We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
 
-          <button className='btnMainPrincipal'>Reserve a Table</button>
+          <button className='btnMain'>Reserve a Table</button>
+       </div>
+
+       <img src={imgMain} alt="" className='imgMainPrincipal' />
 
     </div>
   )
