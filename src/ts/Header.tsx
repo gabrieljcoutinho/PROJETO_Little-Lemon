@@ -1,6 +1,8 @@
 import React from 'react'
 
-const Header = () => {
+type Props = {}
+
+const Header = (props: Props) => {
   return (
     <div>Header</div>
   )
