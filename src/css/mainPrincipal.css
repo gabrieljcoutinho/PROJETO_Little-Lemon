@@ -4,7 +4,7 @@
     height: 353.38px;
     display: flex;
     padding-left: 25rem;
-    gap: 200px;
+    gap: 500px;
 }
 
 .pMainConteudoPrinciapal {
@@ -23,6 +23,8 @@
 
 .pMainConteudoTerciario {
     color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 
 .imgMainPrincipal {
