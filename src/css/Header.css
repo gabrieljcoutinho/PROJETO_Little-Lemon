@@ -1,0 +1,8 @@
+.Header {
+    display: flex;
+}
+
+.listaHeader {
+    display: flex;
+    gap: 50px;
+}
