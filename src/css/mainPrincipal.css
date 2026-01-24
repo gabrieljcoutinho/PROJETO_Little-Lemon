@@ -9,14 +9,16 @@
 
 .pMainConteudoPrinciapal {
     color: yellow;
-    font-size: 40px;
+    font-size: 50px;
     font-family: Markazi Text;
+    padding-top: 1rem;
 }
 
 .pMainConteudoSecundario {
     color: #fff;
     font-family: Markazi Text;
-    font-size: 25px;
+    font-size: 30px;
+    padding-bottom: 1.5rem;
 }
 
 .imgMainPrincipal {
