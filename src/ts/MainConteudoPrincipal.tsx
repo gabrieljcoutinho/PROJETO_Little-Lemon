@@ -6,7 +6,11 @@ type Props = {}
 
 const MainConteudoPrincipal = (props: Props) => {
   return (
-    <div className='mainPrincipal'>MainConteudoPrincipal</div>
+    <div className='mainPrincipal'>
+
+        <p className="pMainConteudoPrinciapal">Little Lemon</p>
+
+    </div>
   )
 }
 
