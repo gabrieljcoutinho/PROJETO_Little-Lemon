@@ -18,11 +18,17 @@ const SectionPratos = (props: Props) => {
 
             <div className="flexbox">
 
-                <div className="divFlexBoxConteudo">1</div>
+            <div class="div1">
+            </div>
 
-               <div className="divFlexBoxConteudo">2</div>
+            <div class="div1">
+            </div>
 
-              <div className="divFlexBoxConteudo">3</div>
+            <div class="div1">
+            </div>
+
+            <div class="div1">
+            </div>
 
             </div>
 
