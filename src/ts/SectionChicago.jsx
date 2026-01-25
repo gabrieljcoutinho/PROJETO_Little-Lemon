@@ -24,7 +24,8 @@ const SectionChicago = (props: Props) => {
                        sourced menu with daily specials.</p>
           </ul>
 
-          <div className="imgsChicago1">
+            <div className="imgsChicago">
+                  <div className="imgsChicago1">
                 <img src={img1Chicago} alt="" />
           </div>
 
@@ -32,6 +33,7 @@ const SectionChicago = (props: Props) => {
                               <img src={img2Chicago} alt="" />
           </div>
 
+            </div>
     </div>
   )
 }
