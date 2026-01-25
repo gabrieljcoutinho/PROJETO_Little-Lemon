@@ -76,3 +76,15 @@
 .precoPRato {
     color: #ffff00;
 }
+
+.descricaoPrato {
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    line-height: 1.6rem;
+}
+
+.descricaoPrato::first-letter {
+    color: #fff;
+    font-size: 30px;
+}
