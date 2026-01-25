@@ -24,25 +24,28 @@
 }
 
 
+/*--------------------------------------------------------------------------------*/
+
 
 .flexbox {
     padding-top: 5rem;
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 15px;
-    justify-content: space-between;
+    justify-content: space-around;
+    transform: translate(-30px, -500px);
+    padding: 560px;
 }
 
 
 
-.flexbox img {
-    width: 300px;
-
-}
+.flexbox img {}
 
 .flexbox div {
-    background-color: deepskyblue;
-    width: 300px;
+    background-color: #938D8D;
+    width: 350px;
+    /* Aumentado de 250px para 400px */
     margin: 15px;
+    border-radius: 20px;
 }
