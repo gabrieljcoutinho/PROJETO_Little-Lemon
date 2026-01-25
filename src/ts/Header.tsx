@@ -17,37 +17,37 @@ const Header = (props: Props) => {
           <a href="#"
              className='linksDaLista'
              id={ativo === 'home' ? 'active' : ''}
-             onClick={() => setAtivo('home')}>Home</a>
+             onClick={() => setAtivo('home')} title='Home'>Home</a>
         </li>
         <li>
           <a href="#"
              className='linksDaLista'
              id={ativo === 'about' ? 'active' : ''}
-             onClick={() => setAtivo('about')}>About</a>
+             onClick={() => setAtivo('about')} title='About'>About</a>
         </li>
         <li>
           <a href="#"
              className='linksDaLista'
              id={ativo === 'menu' ? 'active' : ''}
-             onClick={() => setAtivo('menu')}>Menu</a>
+             onClick={() => setAtivo('menu')} title='Menu'>Menu</a>
         </li>
         <li>
           <a href="#"
              className='linksDaLista'
              id={ativo === 'res' ? 'active' : ''}
-             onClick={() => setAtivo('res')}>Resevations</a>
+             onClick={() => setAtivo('res')} title='Reservations'>Resevations</a>
         </li>
         <li>
           <a href="#"
              className='linksDaLista'
              id={ativo === 'order' ? 'active' : ''}
-             onClick={() => setAtivo('order')}>Order Online</a>
+             onClick={() => setAtivo('order')} title='Order Online'>Order Online</a>
         </li>
         <li>
           <a href="#"
              className='linksDaLista'
              id={ativo === 'login' ? 'active' : ''}
-             onClick={() => setAtivo('login')}>Login</a>
+             onClick={() => setAtivo('login')} title='Login'>Login</a>
         </li>
       </ul>
     </div>
