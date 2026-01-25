@@ -24,9 +24,12 @@ const SectionChicago = (props: Props) => {
                        sourced menu with daily specials.</p>
           </ul>
 
-          <div className="imgsChicago">
+          <div className="imgsChicago1">
                 <img src={img1Chicago} alt="" />
-                  <img src={img2Chicago} alt="" />
+          </div>
+
+          <div className="imgsChicago2">
+                              <img src={img2Chicago} alt="" />
           </div>
 
     </div>
