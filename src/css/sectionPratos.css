@@ -56,6 +56,23 @@
 
 /*--------------------------------------------------------------------------------*/
 
-.itensPratos {
+.itensPratosUl {
     display: flex;
+    gap: 110px;
+}
+
+.itensPratos {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nomePrato {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-left: 2rem;
+}
+
+.precoPRato {
+    color: #ffff00;
 }
