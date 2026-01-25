@@ -27,4 +27,8 @@
     font-size: 40px;
 }
 
+.imgsChicago {
+    display: flex;
+}
+
 /* transform: translate(0px, -500px); */
