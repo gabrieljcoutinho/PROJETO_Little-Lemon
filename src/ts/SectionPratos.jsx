@@ -27,9 +27,6 @@ const SectionPratos = (props: Props) => {
             <div class="div1">
             </div>
 
-            <div class="div1">
-            </div>
-
             </div>
 
     </div>
