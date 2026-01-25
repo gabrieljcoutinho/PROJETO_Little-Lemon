@@ -24,25 +24,25 @@ const SectionPratos = (props: Props) => {
 
             <div class="div1">
               <img src={prato1} alt="" />
-                  <ul className='itensPratos'>
-                    <li>Greek salad</li>
-                    <li>R$: 12,99</li>
+                  <ul className='itensPratosUl'>
+                    <li className='itensPratos nomePrato'>Greek salad</li>
+                    <li className='itensPratos precoPRato'>R$: 12,99</li>
                   </ul>
             </div>
 
             <div class="div1">
                <img src={prato2} alt="" />
-               <ul className="itensPratos">
-                <p>Bruchetta</p>
-                <li>R$: 5,99</li>
+               <ul className="itensPratosUl">
+                <li className='itensPratos nomePrato'>Bruchetta</li>
+                <li className='itensPratos  precoPRato'>R$: 5,99</li>
                </ul>
             </div>
 
             <div class="div1">
                <img src={prato3} alt="" />
-            <ul className='itensPratos'>
-                 <p>Lemon Dessert</p>
-                <li>R$: 5,00</li>
+            <ul className='itensPratosUl'>
+                 <li className='itensPratos nomePrato'>Lemon Dessert</li>
+                <li className='itensPratos precoPRato'>R$: 5,00</li>
             </ul>
             </div>
 
