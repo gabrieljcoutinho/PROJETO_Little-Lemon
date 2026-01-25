@@ -3,6 +3,8 @@ import "../css/comentarios.css"
 
 import estrela from "../imgs/star.png"
 
+import perfil from "../imgs/perfil.png"
+
 type Props = {}
 
 const SectionComentario = (props: Props) => {
@@ -24,6 +26,11 @@ const SectionComentario = (props: Props) => {
 
                         <h3 className='review'>Review title</h3>
                                   <h4 className='Subreview'>Review body</h4>
+
+                                 <div className="perfilUsuario">
+                                   <img src={perfil} alt="" className='imgPerfilComentary' />
+                                   <p className="userName">User Name</p>
+                                 </div>
             </div>
 
             <div className="comentarios">
@@ -38,6 +45,11 @@ const SectionComentario = (props: Props) => {
 
                        <h3 className='review'>Review title</h3>
                                  <h4 className='Subreview'>Review body</h4>
+
+                                 <div className="perfilUsuario">
+                                   <img src={perfil} alt="" className='imgPerfilComentary' />
+                                   <p className="userName">User Name</p>
+                                 </div>
             </div>
             </div>
 
@@ -53,6 +65,10 @@ const SectionComentario = (props: Props) => {
      <h3 className='review'>Review title</h3>
           <h4 className='Subreview'>Review body</h4>
 
+            <div className="perfilUsuario">
+                                   <img src={perfil} alt="" className='imgPerfilComentary' />
+                                   <p className="userName">User Name</p>
+                                 </div>
 
             </div>
             </div>
@@ -69,6 +85,11 @@ const SectionComentario = (props: Props) => {
                   </ul>
                        <h3 className='review'>Review title</h3>
                                  <h4 className='Subreview'>Review body</h4>
+
+                                 <div className="perfilUsuario">
+                                   <img src={perfil} alt="" className='imgPerfilComentary' />
+                                   <p className="userName">User Name</p>
+                                 </div>
             </div>
             </div>
 
