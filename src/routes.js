@@ -7,6 +7,7 @@ import MainConteudoPrincipal from "./ts/MainConteudoPrincipal.tsx"
 import SectionPratos from "./ts/SectionPratos.jsx"
 import SectionComentarios from "./ts/SectionComentario.jsx"
 import SectionChicago from "./ts/SectionChicago.jsx"
+import Footer from "./ts/Footer.jsx"
 
 const routes = () => {
   return (
@@ -21,6 +22,8 @@ const routes = () => {
         <SectionComentarios />
 
         <SectionChicago />
+
+        <Footer />
 
     </div>
   )
