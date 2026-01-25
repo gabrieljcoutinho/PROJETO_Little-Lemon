@@ -1,6 +1,9 @@
 import React from 'react'
 import "../css/sectionChicago.css"
 
+import img1Chicago from "../imgs/cooked.png"
+import img2Chicago  from "../imgs/cooked2.png"
+
 type Props = {}
 
 const SectionChicago = (props: Props) => {
@@ -20,6 +23,11 @@ const SectionChicago = (props: Props) => {
                        casual environment the restaurant features a locally  <br/>
                        sourced menu with daily specials.</p>
           </ul>
+
+          <div className="imgsChicago">
+                <img src={img1Chicago} alt="" />
+                  <img src={img2Chicago} alt="" />
+          </div>
 
     </div>
   )
