@@ -8,7 +8,7 @@ const SectionChicago = (props: Props) => {
     <div className='sectionChicago'>
 
           <ul className="listaConteudoChicagoTexto">
-                  <h2>Little Lemon</h2>
+                  <h2 className='subTituloChicago'>Little Lemon</h2>
                 <h3>Chicago</h3>
                 <p className="chicagoParagrafo">
                     Little Lemon is a charming neighborhood bistro that <br/>
