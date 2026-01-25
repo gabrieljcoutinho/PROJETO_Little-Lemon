@@ -40,12 +40,15 @@
 
 
 
-.flexbox img {}
+.flexbox img {
+    width: 350px;
+}
 
 .flexbox div {
-    background-color: #938D8D;
+    background-color: #c0c0c0;
     width: 350px;
     /* Aumentado de 250px para 400px */
     margin: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
+    height: 500px;
 }
