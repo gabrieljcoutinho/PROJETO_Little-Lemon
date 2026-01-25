@@ -24,14 +24,17 @@ const SectionPratos = (props: Props) => {
 
             <div class="div1">
               <img src={prato1} alt="" />
+              <p>Greek salad</p>
             </div>
 
             <div class="div1">
                <img src={prato2} alt="" />
+               <p>Bruchetta</p>
             </div>
 
             <div class="div1">
                <img src={prato3} alt="" />
+               <p>Lemon Dessert</p>
             </div>
 
             </div>
