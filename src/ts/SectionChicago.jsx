@@ -26,11 +26,11 @@ const SectionChicago = (props: Props) => {
 
             <div className="imgsChicago">
                   <div className="imgsChicago1">
-                <img src={img1Chicago} alt="" />
+                <img src={img1Chicago} className='imgsChicagoLittleLemon primeiraImgLittleLemon' alt="" />
           </div>
 
           <div className="imgsChicago2">
-                              <img src={img2Chicago} alt="" />
+                        <img src={img2Chicago} className='imgsChicagoLittleLemon imgMudancaUnicaChicago' alt="" />
           </div>
 
             </div>
