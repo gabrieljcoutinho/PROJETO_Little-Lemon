@@ -5,7 +5,11 @@ type Props = {}
 
 const SectionComentario = (props: Props) => {
   return (
-    <div>SectionComentaasdrio</div>
+    <div className='sectionComentario'>
+
+            <h2 className='subtitulo'>Our customers love us!</h2>
+
+    </div>
   )
 }
 
