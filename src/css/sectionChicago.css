@@ -2,9 +2,21 @@
     transform: translate(0px, -900px);
     background-color: rgb(238, 255, 0);
     height: 600px;
+    display: flex;
+    gap: 50px;
 }
+
+.listaConteudoChicagoTexto {
+    padding-left: 35rem;
+    transform: translate(-210px, 100px);
+
+}
+
 
 .subTituloChicago {
     color: #495E57;
     font-size: 50px;
 }
+
+
+/* transform: translate(0px, -500px); */
