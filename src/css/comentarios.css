@@ -51,3 +51,18 @@
     padding-left: 2rem;
 
 }
+
+.imgPerfilComentary {
+    border-radius: 50%;
+}
+
+.perfilUsuario {
+    padding-top: 6rem;
+    display: flex;
+    padding-left: 2rem;
+}
+
+.userName {
+    transform: translate(0px, 10px);
+    padding-left: 3rem;
+}
