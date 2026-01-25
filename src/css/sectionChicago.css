@@ -29,6 +29,33 @@
 
 .imgsChicago {
     display: flex;
+    position: relative;
+    /* Adicionado para controle de posicionamento */
+    transform: translate(0px, 140px);
+}
+
+.imgsChicagoLittleLemon {
+    width: 400px;
+    /* Aumentei conforme seu pedido anterior */
+    height: auto;
+    border-radius: 16px;
+    /* Dica: bordas arredondadas ficam ótimas aqui */
+}
+
+/* Primeira Imagem (Fica em cima) */
+.primeiraImgLittleLemon {
+    z-index: 2;
+    position: relative;
+}
+
+.imgMudancaUnicaChicago {
+    height: auto;
+    /* Melhor manter auto para não deformar */
+    width: 400px;
+    z-index: 1;
+    /* O segredo está aqui: aumente o valor de Y para descer a imagem */
+    /* E ajuste o X para ela aparecer por trás da primeira */
+    transform: translate(-150px, -100px);
 }
 
 /* transform: translate(0px, -500px); */
