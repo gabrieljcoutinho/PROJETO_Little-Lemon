@@ -33,6 +33,9 @@ const SectionPratos = (props: Props) => {
                  <p className='descricaoPrato'>
                       The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.
                     </p>
+
+     <p className='deliveryPedido'>Order Delivery</p>
+
             </div>
 
             <div class="div1">
@@ -46,6 +49,10 @@ const SectionPratos = (props: Props) => {
                   Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.
                 </p>
 
+                <br />
+
+                <p className='deliveryPedido'>Order Delivery</p>
+
             </div>
 
             <div class="div1">
@@ -58,6 +65,8 @@ const SectionPratos = (props: Props) => {
             <p className='descricaoPrato'>
               This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.
             </p>
+
+                 <p className='deliveryPedido'>Order Delivery</p>
 
             </div>
 
