@@ -1,8 +1,30 @@
-* {
-    padding: 0;
+/* 1. Reset básico e altura total */
+html,
+body {
+    height: 100%;
     margin: 0;
+    padding: 0;
 }
 
-body {
-    min-height: 10px;
+/* 2. O Root vira um container Flexbox */
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ocupa no mínimo a altura da tela toda */
+}
+
+/* 3. Onde o conteúdo principal vive */
+/* Supondo que dentro do seu App.js você use a tag <main> */
+main {
+    flex: 1;
+    /* Isso empurra o footer para o fim da página */
+}
+
+/* 4. Limpando o erro do seu código anterior */
+/* Se você tiver uma tag <app> ou classe .App, remova o max-height */
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
