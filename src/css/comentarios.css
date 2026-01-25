@@ -17,6 +17,8 @@
     padding-right: 15rem;
     justify-content: space-around;
     padding-top: 3rem;
+    padding: 530px;
+    transform: translate(0px, -500px);
 }
 
 .comentarios {
@@ -24,10 +26,15 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    padding: 5px;
 }
 
 .listaEstrelas {
     padding-top: 15px;
     padding-left: 1.5rem;
+}
+
+.imgEstrela {
+    width: 25px;
+    padding-left: 1.2rem;
+
 }
