@@ -21,6 +21,8 @@ const SectionComentario = (props: Props) => {
             <img src={estrela} alt=""  className='imgEstrela'/>
               <img src={estrela} alt=""  className='imgEstrela'/>
                   </ul>
+
+                        <h3 className='review'>Review title</h3>
             </div>
 
             <div className="comentarios">
@@ -32,6 +34,8 @@ const SectionComentario = (props: Props) => {
             <img src={estrela} alt=""  className='imgEstrela'/>
               <img src={estrela} alt=""  className='imgEstrela'/>
                   </ul>
+
+                       <h3 className='review'>Review title</h3>
             </div>
             </div>
 
@@ -44,6 +48,9 @@ const SectionComentario = (props: Props) => {
             <img src={estrela} alt=""  className='imgEstrela'/>
               <img src={estrela} alt=""  className='imgEstrela'/>
                   </ul>
+     <h3 className='review'>Review title</h3>
+
+
             </div>
             </div>
 
@@ -57,6 +64,7 @@ const SectionComentario = (props: Props) => {
             <img src={estrela} alt=""  className='imgEstrela'/>
               <img src={estrela} alt=""  className='imgEstrela'/>
                   </ul>
+                       <h3 className='review'>Review title</h3>
             </div>
             </div>
 
