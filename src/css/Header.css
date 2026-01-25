@@ -27,3 +27,7 @@
 .linksDaLista:hover {
     text-decoration: underline;
 }
+
+#active {
+    color: red;
+}
