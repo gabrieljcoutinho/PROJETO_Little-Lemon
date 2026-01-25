@@ -15,6 +15,17 @@ const SectionPratos = (props: Props) => {
 
             <div className="subTitulo">This Week is specials!</div>
 
+
+            <div className="flexbox">
+
+                <div className="divFlexBoxConteudo">1</div>
+
+               <div className="divFlexBoxConteudo">2</div>
+
+              <div className="divFlexBoxConteudo">3</div>
+
+            </div>
+
     </div>
   )
 }
