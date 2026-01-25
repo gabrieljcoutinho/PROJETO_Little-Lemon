@@ -11,15 +11,20 @@ const SectionComentario = (props: Props) => {
 
             <div className="flex">
 
-            <div className="comentario1">
+            <div className="comentarios">
       Comentario
             </div>
 
-            <div className="comentario2">
+            <div className="comentarios">
       Comentario
             </div>
 
-            <div className="comentario3">
+            <div className="comentarios">
+      Comentario
+            </div>
+
+
+            <div className="comentarios">
       Comentario
             </div>
 
