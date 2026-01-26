@@ -1,2 +1,2 @@
 # Little 
-_Um leyout construido atraves de inspiracao vinda do Figma_
+_Um leyout construido através de inspiração vinda do Figma_
